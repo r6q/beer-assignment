@@ -1,0 +1,27 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 1rem;
+  width: 250px;
+}
+
+.title {
+  font: 1.5rem bold;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.details-btn {
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: dodgerblue;
+  margin-top: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
